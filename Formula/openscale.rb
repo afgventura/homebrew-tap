@@ -2,27 +2,27 @@
 class Openscale < Formula
   desc "OpenScale from your terminal: keys, models, chat, agent setup, balance"
   homepage "https://openscale.so/docs"
-  version "0.1.7"
+  version "0.1.8"
 
   on_macos do
     on_arm do
-      url "https://openscale.so/download/cli/v0.1.7/openscale_0.1.7_darwin_arm64.tar.gz"
-      sha256 "db38ceb01901a4ccee16b367cd10a9a488e9ddd7324ca04b1cc74c3600d4d08e"
+      url "https://openscale.so/download/cli/v0.1.8/openscale_0.1.8_darwin_arm64.tar.gz"
+      sha256 "76766d631d20425ac01eb0e6a8457382a941c24daedf173210d694169836455f"
     end
     on_intel do
-      url "https://openscale.so/download/cli/v0.1.7/openscale_0.1.7_darwin_amd64.tar.gz"
-      sha256 "caca23538b513a088e73efa4c91783198344df4a2ad85550a41f1294e1f1f137"
+      url "https://openscale.so/download/cli/v0.1.8/openscale_0.1.8_darwin_amd64.tar.gz"
+      sha256 "996e073826916d258034ef90587d020ae5944de2fe80554a883d49143fe63b20"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://openscale.so/download/cli/v0.1.7/openscale_0.1.7_linux_arm64.tar.gz"
-      sha256 "422c7dc325358de28dd1c9c3631a9133d17097b71358ca5443cee1bc830ae417"
+      url "https://openscale.so/download/cli/v0.1.8/openscale_0.1.8_linux_arm64.tar.gz"
+      sha256 "d838ad60054a1ef37e33131a30480a0aa87c85b62eb96e5062c1265c7893a1da"
     end
     on_intel do
-      url "https://openscale.so/download/cli/v0.1.7/openscale_0.1.7_linux_amd64.tar.gz"
-      sha256 "3ea8db5e08b6cd32e6057daeed613bffbc3286a82e144c0965bce524c0e9adc7"
+      url "https://openscale.so/download/cli/v0.1.8/openscale_0.1.8_linux_amd64.tar.gz"
+      sha256 "8ec9599845923fd1e7a89a84fb22678a945412eb44afc4ddc4d25910bb5db6ed"
     end
   end
 
